@@ -10,9 +10,8 @@ Copy/paste this Javascript into the @head@ of your Website to make an Internet E
 
 pre(code).. 
 
-<script src='http://cachedcommons.org/javascripts/jquery/jquery-1.4.2-min.js' type='text/javascript'></script>
 <!--[if lte IE 7]>
-  <script src='http://cachedcommons.org/javascripts/jquery/jquery.ie-update.js' type='text/javascript'></script>
+  <script src='http://cachedcommons.org/javascripts/jquery/internet-enabled.js' type='text/javascript'></script>
 <![endif]-->
 
 p. Show your support by joining groups, tweeting, commenting, displaying badges, and filling out surveys!

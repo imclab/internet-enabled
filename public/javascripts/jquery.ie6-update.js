@@ -60,7 +60,7 @@ if(window.__noconflict){ jQuery.noConflict();}
     $.fn.activebar = function( options ) {
         // Merge the specified options with the default ones
         options = $.fn.extend( {}, $.fn.activebar.defaults, options );
-        
+
         if ( $.fn.activebar.container === null ) {
             $.fn.activebar.container = initializeActivebar( options );
         }

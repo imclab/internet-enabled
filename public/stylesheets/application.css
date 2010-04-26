@@ -529,10 +529,10 @@ label{
 
 .text-field.full {
 	width:940px;
-	height:100px;
+	height:70px;
 }
 
-.text-field:focus{
+.text-field:focus {
 	border:3px black solid;
 }
 
