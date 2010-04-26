@@ -508,36 +508,40 @@ a.button-launch-website{
 }
 
 
-#participate-form label{
+label{
 	float:left;
 	display:block;
 	width:100px;
 }
 
-#participate-form .text-field{
+.text-field{
 	display:block;
 	border:none;
-	width:267px;
+	width:367px;
 	height:27px;	
-	background-color:#eee;
+	background-color:#fff;
 	border:3px silver solid;
 	font-size:18px;
 	padding:3px;
 	font-family:inherit;
 	color:#222;
-	float:left;
 }
 
-#participate-form .text-field:focus{
+.text-field.full {
+	width:940px;
+	height:100px;
+}
+
+.text-field:focus{
 	border:3px black solid;
 }
 
-#participate-form input.text-field{
+input.text-field{
 	height:27px;
 	/* background:transparent url('../images/application/input_text_box.jpg') no-repeat scroll 0 0; */
 }
 
-#participate-form textarea.text-field{
+textarea.text-field{
 	height:190px;
 	/* background:transparent url('../images/application/input_text_area.jpg') no-repeat scroll 0 0; */
 	overflow:auto;

@@ -1,5 +1,6 @@
 ---
 title: Save the Developers
+position: 2
 asset:
   url: /images/icons/news.png
 ---

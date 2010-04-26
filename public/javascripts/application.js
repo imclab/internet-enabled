@@ -44,4 +44,9 @@ $(document).ready(function() {
 			$link.attr("target", "_blank");
 		}
 	});
+	
+	$("pre.code").each(function(index, element) {
+		$el = $(element);
+		$el.replaceWith("<br/><textarea class='text-field full' readonly='readonly'>" + $el.html()  + "</textarea>");
+	})
 })

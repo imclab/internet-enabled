@@ -1,7 +1,0 @@
----
-title: The Ones on Board
-asset:
-  url: /images/icons/check.png
----
-
-Here is a growing list of sites abandoning Internet Explorer 6.

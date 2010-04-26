@@ -1,7 +1,7 @@
 #community.entry
   %h2.title.work-heading
     What the World Thinks
-  - site.find_posts_by_category("community").each do |post|
+  - site.find_posts_by_category("community").sort{|x,y| x.data["position"].to_i <=> y.data["position"].to_i}.each do |post|
     .about-block
       .column-one
         %img{ :src => post.asset.url, :alt => post.title }

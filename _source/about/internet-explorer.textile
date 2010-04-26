@@ -10,3 +10,5 @@ asset:
 *(good) "Well Marketed":http://almost.done21.com/2009/04/announcing-ie6-update-help-kill-internet-explorer-6/
 *(bad) Non Standard Compliant
 *(bad) Closed Source
+
+"Why Upgrade?":http://www.stoplivinginthepast.com/why-upgrade/

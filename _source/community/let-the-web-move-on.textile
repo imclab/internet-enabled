@@ -1,5 +1,6 @@
 ---
 title: Let the Web Move On
+position: 2
 asset:
   url: /images/icons/globe.png
 ---
@@ -22,8 +23,10 @@ h3. Campaigns Against IE6
 * "Save a Developer: Upgrade Your Browser":http://weblogs.asp.net/lduveau/archive/2008/04/05/save-a-developer-upgrade-your-browser.aspx
 * "IE6 Must Die Support":http://twibbon.com/join/IE6-Must-Die
 * "Browse Happy":http://browsehappy.com/why/
+* "Dear IE6":http://dearie6.com/
+* "Stop Living in the Past":http://www.stoplivinginthepast.com/
 
-h3. Efforts Against IE6
+h3. Thoughts About IE6
 
 * "Kill Bill's Browser: Test IE6's Vulnerabilities":http://crashie.ajaxmasters.com/
 * "Crash IE":http://www.crashie.com/
@@ -42,3 +45,16 @@ h3. Efforts Against IE6
 * "CNN: Web Citizens Trying to Kill Internet Explorer 6":http://www.cnn.com/2009/TECH/08/06/internet.explorer.six/
 * "37Signals (Basecamp Company) Drops IE6 Support":http://37signals.blogs.com/products/2008/07/basecamp-phasin.html
 * "Apple's MobileMe Drops IE6 Support":http://37signals.com/svn/posts/1072-apples-mobileme-drops-support-for-ie-6
+* "Stop Complaining About IE6":http://www.silverspider.com/2010/developers-stop-complaining-about-ie-6/
+
+h3. "IE6 Is Older Than...":http://www.justinroberts.com.au/put-ie6-out-of-its-misery-a-list-of-anti-ie6-websites/
+
+* Windows XP
+* Facebook 
+* Myspace 
+* Google Adsense
+* iPod
+* Original XBox
+* Canon Digital SLR Cameras
+* The War in Iraq
+* East Timor

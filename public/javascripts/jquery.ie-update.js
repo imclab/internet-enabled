@@ -309,7 +309,7 @@ if(window.__noconflict){ jQuery.noConflict();}
         $( '.content', container ).css({
             'fontFamily': options.font,
             'fontSize': options.fontSize
-        });                                      
+        });
      }
 
 })(jQuery);
