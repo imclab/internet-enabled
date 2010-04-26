@@ -10,3 +10,7 @@ bq. Internet Explorer is the main reason Windows is associated with viruses.
 If you are using Internet Explorer, you are exposing yourself to viruses, period.  Get one of the four other popular browsers and you will be fine.
 
 * "Internet Explorer Viruses":http://www.virusexperts.org/security-news/german-government-dont-use-internet-explorer/
+* "World Governments Advise Against Internet Explorer":http://mashable.com/2010/01/18/france-against-internet-explorer/
+* "I have worked on 3 infected machines this week and all of them were running ie7 and had windows and virus software up to date. The most secure browser right now is the Chrome dev version. It's bullet proof.":http://mashable.com/2010/01/19/microsoft-downplays-ie-hole/
+* "Internet Explorer Vulnerability allows others to Access your Operating System":http://www.microsoft.com/technet/security/advisory/961051.mspx
+* "Serious Security Flaw: Easy for Hackers to Steal your Data if you use IE":http://voices.washingtonpost.com/securityfix/2008/12/microsoft_big_security_hole_in.html

@@ -36,4 +36,12 @@ $(document).ready(function() {
 		barSpace: 5,
 		title: '<h3>Browser Javascript Performance Test<br/><small>Time (ms)</small></h3>'
 	});
+	
+	$("a").each(function(index, element) {
+		$link = $(element);
+		if ($link.attr("href").match(/^http/)) {
+			$link.addClass("external");
+			$link.attr("target", "_blank");
+		}
+	});
 })

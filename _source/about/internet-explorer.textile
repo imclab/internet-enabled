@@ -5,8 +5,8 @@ asset:
   url: /images/icons/ie-trash.png
 ---
 
-*(bad) Viruses
-*(bad) Crashes
-*(good) Well Marketed
+*(bad) "Viruses":http://crashie.ajaxmasters.com/
+*(bad) "Crashes":http://www.crashie.com/
+*(good) "Well Marketed":http://almost.done21.com/2009/04/announcing-ie6-update-help-kill-internet-explorer-6/
 *(bad) Non Standard Compliant
 *(bad) Closed Source

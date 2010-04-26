@@ -5,8 +5,12 @@ asset:
   url: /images/icons/productivity.png
 ---
 
-*(good) One size fits all
+By cutting Internet Explorer out of the equation, we get the following:
+
+*(good) One size fits all development patterns
 *(good) Better User Experience
 *(good) Faster Turnaround
 *(good) Standards Compliant
 *(good) Happier Customers
+
+This is because Internet Explorer requires us to rebuild our software according to Non-Standard Compliant practices.

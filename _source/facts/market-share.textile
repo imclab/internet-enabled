@@ -11,3 +11,5 @@ Internet Explorer has a huge market share.  This is because of the investment ma
 * "Web Browser Market Trends":http://www.w3counter.com/trends
 * "Browser Statistics":http://www.w3schools.com/browsers/browsers_stats.asp
 * "What Would your World Wide Web Developer Do?":http://www.codinghorror.com/blog/2006/06/wwwwwdd.html
+
+"Microsoft Internet Explorer was sued by the United States of America":http://en.wikipedia.org/wiki/United_States_v._Microsoft in the late 1990's for tying Internet Explorer directly to the Windows operating system.  This allowed them to dominate the market by suppressing all competition.

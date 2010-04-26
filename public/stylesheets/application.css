@@ -95,9 +95,9 @@ h2{
 
 }
 
-h3{
+h3 {
 	font-size:24px;
-	margin:10px 0;
+	margin:20px 0;
 }
 
 p{
@@ -311,6 +311,9 @@ body{
 .entry ul li.bad {
 	padding:5px 0 8px 40px;
 	background:transparent url('../images/icons/alert-tiny.png') no-repeat scroll 0 center;
+}
+.entry ul li.good a, .entry ul li.bad a {
+	font-style: normal;
 }
 
 /********Services******/

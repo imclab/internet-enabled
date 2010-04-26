@@ -6,3 +6,7 @@ asset:
 ---
 
 Leave behind a better world.
+
+Download "Chrome":http://www.google.com/chrome, "Firefox":http://www.mozilla.com/en-US/firefox/firefox.html, "Safari":http://www.apple.com/safari/download, or "Opera":http://www.opera.com/download/ if you are not using one already.
+
+Spread the word around.

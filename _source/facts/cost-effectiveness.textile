@@ -22,4 +22,6 @@ The second camp are the freelancers, small businesses, emerging enterprises.  Th
 *(bad) Very Prone to Viruses
 *(bad) Non Standards Compliant
 
+"Why Businesses Can't Upgrade from Internet Explorer 6/7":http://stackoverflow.com/questions/2704087/why-cant-businesses-upgrade-their-browsers-from-ie6-ie7
+
 More to come...

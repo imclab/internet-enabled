@@ -5,3 +5,21 @@ asset:
 ---
 
 It takes developers a lot of time to make things look, feel, and work great.  That doesn't come easy.  Cutting out old technologies streamlines their workflow and cuts client costs dramatically.  Here is a list of the hoops developers have had to jump through, and the time they had to give up, to make old technology work with the new.
+
+h3. CSS Box Model Hacks
+
+The CSS Box Model is the fundamental theory behind how web pages are laid out.  The Open Source Community went one way, and Microsoft Internet Explorer went a different way and got it wrong.  Here is how Internet Explorer's Box Model compares with the World Wide Web Consortium's Standard:
+
+!/images/internet/w3c-vs-ie-box-model.png(Internet Explorer Box Model Bug)!:http://en.wikipedia.org/wiki/Internet_Explorer_box_model_bug
+
+This means for every website we make, we have to recalculate everything according to a different set of rules.  That takes a lot of work.
+
+* "Trash all IE Hacks":http://www.webdesignerwall.com/general/trash-all-ie-hacks/
+* "Tantek Celik's Box Model Hack":http://css-discuss.incutio.com/wiki/Box_Model_Hack
+* "Tantek Celik's Pandora's Box Model of CSS Hacks":http://tantek.com/log/2005/11.html#d26t1820
+* "Making Internet Explorer use 'position:fixed'":http://www.howtocreate.co.uk/fixedPosition.html
+* "Interactive Box Model Demonstration":http://redmelon.net/tstme/box_model/
+
+h3. Lists and Lists of IE Bugs and Workarounds
+
+* "Internet Explorer Exposed":http://www.positioniseverything.net/explorer.html
