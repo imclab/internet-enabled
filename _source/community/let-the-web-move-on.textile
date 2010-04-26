@@ -38,3 +38,7 @@ h3. Efforts Against IE6
 * "Firefox Creators Join the Anti IE Crusade":http://browsers.about.com/b/2009/02/09/firefox-creators-join-the-anti-ie-crusade.htm
 * "Internet Explorer Must Die":http://wordsmoker.com/2009/02/27/internet-explorer-must-die/
 * "Twitter Users Agree: IE6 Must Die":http://mashable.com/2009/07/17/ie6-must-die-twibon/
+* "Several Norwegian Websites Declare War on IE6":http://www.wired.com/epicenter/2009/02/norwegian-websi/
+* "CNN: Web Citizens Trying to Kill Internet Explorer 6":http://www.cnn.com/2009/TECH/08/06/internet.explorer.six/
+* "37Signals (Basecamp Company) Drops IE6 Support":http://37signals.blogs.com/products/2008/07/basecamp-phasin.html
+* "Apple's MobileMe Drops IE6 Support":http://37signals.com/svn/posts/1072-apples-mobileme-drops-support-for-ie-6
