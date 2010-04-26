@@ -1,0 +1,12 @@
+---
+title: Security and Viruses
+position: 1
+asset:
+  url: /images/icons/alert.png
+---
+
+bq. Internet Explorer is the main reason Windows is associated with viruses.
+
+If you are using Internet Explorer, you are exposing yourself to viruses, period.  Get one of the four other popular browsers and you will be fine.
+
+* "Internet Explorer Viruses":http://www.virusexperts.org/security-news/german-government-dont-use-internet-explorer/

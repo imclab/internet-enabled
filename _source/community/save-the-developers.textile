@@ -1,0 +1,7 @@
+---
+title: Save the Developers
+asset:
+  url: /images/icons/news.png
+---
+
+It takes developers a lot of time to make things look, feel, and work great.  That doesn't come easy.  Cutting out old technologies streamlines their workflow and cuts client costs dramatically.  Here is a list of the hoops developers have had to jump through, and the time they had to give up, to make old technology work with the new.

@@ -1,0 +1,12 @@
+---
+title: Better Browsers
+position: 2
+asset:
+  url: /images/icons/better-browsers.png
+---
+
+*(good) Safe
+*(good) Fast
+*(good) Rapidly Developed
+*(good) Standards Compliant
+*(good) Open Source

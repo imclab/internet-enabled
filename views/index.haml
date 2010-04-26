@@ -1,0 +1,15 @@
+= partial "partials/header"
+#content
+  .center
+    = partial "partials/home", :locals => locals.dup
+    .separator
+    = partial "partials/about", :locals => locals.dup
+    .separator
+    = partial "partials/facts", :locals => locals.dup
+    .separator
+    = partial "partials/community", :locals => locals.dup
+    .separator
+    = partial "partials/participate", :locals => locals.dup.merge(:post => site.find_page_by_category("participate"))
+#footer
+  %span
+    Copyright 2010 iLove4D

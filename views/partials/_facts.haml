@@ -1,0 +1,12 @@
+#facts.entry
+  %h2.title.facts-heading
+    Get the Facts
+  - site.find_posts_by_category("facts").sort{|x,y| x.data["position"].to_i <=> y.data["position"].to_i}.each do |post|
+    .facts-block
+      .column-two
+        %img{ :src => post.asset.url, :alt => post.title }
+      .column-one
+        %h3.subtitle
+          = post.title
+        :textile
+          #{read post}

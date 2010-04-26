@@ -1,0 +1,10 @@
+---
+title: Speed and Performance
+position: 5
+asset:
+  url: /images/icons/performance.png
+---
+
+* "Browser Memory Usage and Speed Tests":http://cybernetnews.com/browser-comparison-internet-explorer-firefox-chrome-safari-opera/
+
+div(#performance_graph). 

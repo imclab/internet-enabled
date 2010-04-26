@@ -1,0 +1,31 @@
+#home
+  %h2.title.banner
+    #front_page.hidden
+      Hello!
+      %br
+      %span#browser_message You are using {browser}.
+      %br
+      %span#browser_followup Become Standards Compliant.
+      %br
+      %span#browser_request Upgrade your Browser.
+    %noscript
+      Hello!
+      %br
+      You are using the Internet without Javascript.
+      %br
+      Turn it on!
+      %br
+      It makes browsing much better.
+  #home-nav
+    %span.download_browser#firefox
+      %a{ :href => "http://www.mozilla.com/en-US/firefox/firefox.html" }
+        %img{ :src => "/images/icons/firefox-medium.png", :alt => "Download Firefox" }
+    %span.download_browser#chrome
+      %a{ :href => "http://www.google.com/chrome" }
+        %img{ :src => "/images/icons/chrome-medium.png", :alt => "Download Chrome" }
+    %span.download_browser#safari
+      %a{ :href => "http://www.apple.com/safari/download" }
+        %img{ :src => "/images/icons/safari-medium.png", :alt => "Download Safari" }
+    %span.download_browser#opera
+      %a{ :href => "http://www.opera.com/download/" }
+        %img{ :src => "/images/icons/opera-medium.png", :alt => "Download Opera" }

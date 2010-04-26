@@ -1,0 +1,25 @@
+---
+title: Cost Effectiveness
+position: 3
+asset:
+  url: /images/icons/piggy-bank.png
+---
+
+There are two camps when it comes to the ROI of upgrading browsers:
+
+* It costs too much to change
+* It costs too much not to change
+
+The first camp are big businesses, and rightly so.  In the early 2000's when Internet Explorer came to market, it was an innovation.  Many businesses quickly adopted it and built all kinds of software specifically tailored to it.  And they had to install it on millions of computers to run all of that Internet Explorer software.
+
+So today, big businesses have sometimes 10's of 1000's of computers, all with software tied specifically to old versions Internet Explorer.  The cost to upgrade includes not only IT time, but making sure the many browser-based software programs they are using don't break.  Basically, they would need to rebuild all of their software using modern technologies, and that is a big task.
+
+bq. The argument goes, there's too much to change and it would cost too much...
+
+The second camp are the freelancers, small businesses, emerging enterprises.  They did not make the enormous investment in Internet Explorer based Enterprise Software solutions in the late 90's and early 2000's so they are not tied down to them.  They think the cost of NOT upgrading is much more than the cost of sticking with old versions of software.  This is because Internet Explorer is:
+
+*(bad) Slow
+*(bad) Very Prone to Viruses
+*(bad) Non Standards Compliant
+
+More to come...

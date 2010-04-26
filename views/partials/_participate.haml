@@ -1,0 +1,39 @@
+#participate
+  %h2.title.contact-heading
+    Change the World
+  #get-in-touch.entry
+    :textile
+      #{read post}
+  %form#participate-form{ :action => "/", :method => "post" }
+    %fieldset
+      %ul
+        %li
+          %label{ :for => "name" }
+            Name
+          %input.text-field{ :name => "name", :type => "text", :value => "" }
+        %li.error.wrong_name
+          Fill the correct name
+        %li
+          %label{ :for => "email" }
+            Email
+          %input.text-field{ :name => "email", :type => "text", :value => "" }
+        %li.error.wrong_email
+          Incorrect email
+        %li
+          %label{ :for => "subject" }
+            Subject
+          %input.text-field{ :name => "subject", :type => "text", :value => "" }
+        %li.error.wrong_subject
+          Enter your subject
+        %li
+          %label{ :for => "message" }
+            Message
+          %textarea.text-field{ :name => "message", :rows => "8", :cols => "58" }
+        %li.error.wrong_message
+          Enter your message
+        %li
+          %p#success
+            Thank you for your submission. I'll get
+            back to you very soon.
+        %li
+          %input.send{ :name => "submit", :type => "submit", :value => "Send" }

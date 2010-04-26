@@ -1,0 +1,12 @@
+#community.entry
+  %h2.title.work-heading
+    What the World Thinks
+  - site.find_posts_by_category("community").each do |post|
+    .about-block
+      .column-one
+        %img{ :src => post.asset.url, :alt => post.title }
+      .column-two
+        %h3.subtitle
+          = post.title
+        :textile
+          #{read post}

@@ -1,0 +1,12 @@
+#about.entry
+  %h2.title.about-heading
+    A Faster, Simpler, Safer Web
+  - site.find_posts_by_category("about").sort{|x,y| x.data["position"].to_i <=> y.data["position"].to_i}.each do |post|
+    .about-block
+      .column-one
+        %img{ :src => post.asset.url, :alt => post.title }
+      .column-two
+        %h3.subtitle
+          = post.title
+        :textile
+          #{read post}

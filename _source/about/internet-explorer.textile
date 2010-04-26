@@ -1,0 +1,12 @@
+---
+title: Internet Explorer...
+position: 1
+asset:
+  url: /images/icons/ie-trash.png
+---
+
+*(bad) Viruses
+*(bad) Crashes
+*(good) Well Marketed
+*(bad) Non Standard Compliant
+*(bad) Closed Source

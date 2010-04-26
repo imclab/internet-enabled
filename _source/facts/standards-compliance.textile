@@ -1,0 +1,13 @@
+---
+title: Standards Compliance
+position: 2
+asset:
+  url: /images/icons/arrow.png
+---
+
+bq. Internet Explorer is not standards compliant.
+
+While it's impossible to be 100% standards compliant, Internet Explorer is the furthest from the standards.
+
+* "Web Standards Project":http://www.webstandards.org/
+* "Internet Explorer vs 'The Standards'":http://www.positioniseverything.net/ie-primer.html

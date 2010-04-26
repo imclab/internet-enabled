@@ -1,0 +1,8 @@
+---
+title: Your Internet Footprint
+position: 3
+asset:
+  url: /images/icons/internet-footprint.png
+---
+
+Leave behind a better world.

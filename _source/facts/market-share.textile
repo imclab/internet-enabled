@@ -1,0 +1,13 @@
+---
+title: Market Share
+position: 4
+asset:
+  url: /images/icons/chart.png
+---
+
+Internet Explorer has a huge market share.  This is because of the investment made in it early on...
+
+* "Web Browser Market Share":http://www.w3counter.com/globalstats.php
+* "Web Browser Market Trends":http://www.w3counter.com/trends
+* "Browser Statistics":http://www.w3schools.com/browsers/browsers_stats.asp
+* "What Would your World Wide Web Developer Do?":http://www.codinghorror.com/blog/2006/06/wwwwwdd.html
