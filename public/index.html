@@ -1,454 +1,465 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns='http://www.w3.org/1999/xhtml'>
-  <head>
-    <title>Internet Enabled</title>
-    <!-- meta -->
-    <meta content='text/html; charset=iso-8859-1' http-equiv='Content-Type' />
-    <meta content='IE=EmulateIE7' http-equiv='X-UA-Compatible' />
-    <meta content='Lance Pollard' name='author' />
-    <meta content='4D | All Rights Reserved' name='copyright' />
-    <meta content='Techonology and the Web' name='classification' />
-    <meta content='United States' name='country' />
-    <meta content='W3C, HTML Standards, Standards Compliance, CSS Support,  Internet Explorer 6, Internet Explorer 7, Safari, Google Chrome,  Firefox, Opera, Browser Wars, Javascript Enabled, Internet Footprint' name='keywords' />
-    <meta content='Checking to see if your browser is Internet Enabled' name='description' />
-    <meta content='index follow' name='robots' />
-    <meta content='yes' name='apple-mobile-web-app-capable' />
-    <meta content='yes' name='apple-touch-fullscreen' />
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns='http://www.w3.org/1999/xhtml'> 
+  <head> 
+    <title>Internet Enabled</title> 
+    <!-- meta --> 
+    <meta content='text/html; charset=iso-8859-1' http-equiv='Content-Type' /> 
+    <meta content='IE=EmulateIE7' http-equiv='X-UA-Compatible' /> 
+    <meta content='Lance Pollard' name='author' /> 
+    <meta content='4D | All Rights Reserved' name='copyright' /> 
+    <meta content='Techonology and the Web' name='classification' /> 
+    <meta content='United States' name='country' /> 
+    <meta content='W3C, HTML Standards, Standards Compliance, CSS Support,  Internet Explorer 6, Internet Explorer 7, Safari, Google Chrome,  Firefox, Opera, Browser Wars, Javascript Enabled, Internet Footprint' name='keywords' /> 
+    <meta content='Checking to see if your browser is Internet Enabled' name='description' /> 
+    <meta content='index follow' name='robots' /> 
+    <meta content='yes' name='apple-mobile-web-app-capable' /> 
+    <meta content='yes' name='apple-touch-fullscreen' /> 
     
-    <!-- stylesheets -->
-    <link href='/stylesheets/application.css' rel='stylesheet' />
+    <!-- stylesheets --> 
+    <link href='/stylesheets/application.css' rel='stylesheet' /> 
     <!--[if lt IE 7]>
       <link href='/stylesheets/ie6.css' rel='stylesheet' />
-    <![endif]-->
+    <![endif]--> 
     
-    <!-- javascripts -->
+    <!-- javascripts --> 
     <!--[if lt IE 8]>
       <script src='http://ie7-js.googlecode.com/svn/version/2.0(beta3)/IE8.js' type='text/javascript'></script>
-    <![endif]-->
-    <script src='http://cachedcommons.org/javascripts/jquery/jquery-1.4.2-min.js' type='text/javascript'></script>
-    <script src='http://cachedcommons.org/javascripts/jquery/jquery.easing-1.3-min.js' type='text/javascript'></script>
-    <script src='http://cachedcommons.org/javascripts/jquery/jquery.scrollTo-1.4.2-min.js' type='text/javascript'></script>
-    <script src='http://cachedcommons.org/javascripts/jquery/jquery.localscroll-1.2.7-min.js' type='text/javascript'></script>
-    <script src='http://cachedcommons.org/javascripts/jquery/jquery.form-2.4.3-min.js' type='text/javascript'></script>
-    <script src='http://cachedcommons.org/javascripts/jquery/jquery.system-0.1.1-min.js' type='text/javascript'></script>
-    <script src='/javascripts/scroll-settings.js' type='text/javascript'></script>
-    <script src='/javascripts/form-settings.js' type='text/javascript'></script>
-    <script src='/javascripts/jqBarGraph.js' type='text/javascript'></script>
-    <script src='/javascripts/installers.js' type='text/javascript'></script>
-    <script src='/javascripts/application.js' type='text/javascript'></script>
+    <![endif]--> 
+    <script src='http://cachedcommons.org/javascripts/jquery/jquery-1.4.2-min.js' type='text/javascript'></script> 
+    <script src='http://cachedcommons.org/javascripts/jquery/jquery.easing-1.3-min.js' type='text/javascript'></script> 
+    <script src='http://cachedcommons.org/javascripts/jquery/jquery.scrollTo-1.4.2-min.js' type='text/javascript'></script> 
+    <script src='http://cachedcommons.org/javascripts/jquery/jquery.localscroll-1.2.7-min.js' type='text/javascript'></script> 
+    <script src='http://cachedcommons.org/javascripts/jquery/jquery.form-2.4.3-min.js' type='text/javascript'></script> 
+    <script src='http://cachedcommons.org/javascripts/jquery/jquery.system-0.1.1-min.js' type='text/javascript'></script> 
+    <!--[if lte IE 7]>
+      <script src='http://cachedcommons.org/javascripts/jquery/jquery.pngfix-min.js' type='text/javascript'>
+        <script type='text/javascript'>
+          //<![CDATA[
+            $(document).ready(function(){ 
+              $(document).pngFix();
+            });
+          //]]>
+        </script>
+      </script>
+    <![endif]--> 
+    <script src='/javascripts/scroll-settings.js' type='text/javascript'></script> 
+    <script src='/javascripts/form-settings.js' type='text/javascript'></script> 
+    <script src='/javascripts/jqBarGraph.js' type='text/javascript'></script> 
+    <script src='/javascripts/installers.js' type='text/javascript'></script> 
+    <script src='/javascripts/application.js' type='text/javascript'></script> 
     
-    <!-- local business card: http://microformats.org/code/hcard/creator -->
-    <link href='http://microformats.org/profile/hcard' rel='profile' />
-    <!-- icons -->
-    <link href='/images/favicon.ico' rel='shortcut icon' type='image/x-icon' />
-    <link href='/images/touch-icon.jpg' rel='apple-touch-icon' title='Internet Enabled' />
-  </head>
-  <body>
-    <div id='header'>
-      <div class='center'>
-        <div id='logo'>
-          <a href='/' title='Internet Enabled'>Internet Enabled</a>
-        </div>
-        <ul id='navigation'>
-          <li>
-            <a href='#home'>
+    <!-- local business card: http://microformats.org/code/hcard/creator --> 
+    <link href='http://microformats.org/profile/hcard' rel='profile' /> 
+    <!-- icons --> 
+    <link href='/images/favicon.ico' rel='shortcut icon' type='image/x-icon' /> 
+    <link href='/images/touch-icon.jpg' rel='apple-touch-icon' title='Internet Enabled' /> 
+  </head> 
+  <body> 
+    <div id='header'> 
+      <div class='center'> 
+        <div id='logo'> 
+          <a href='/' title='Internet Enabled'>Internet Enabled</a> 
+        </div> 
+        <ul id='navigation'> 
+          <li> 
+            <a href='#home'> 
               Home
-            </a>
-          </li>
-          <li>
-            <a href='#about'>
+            </a> 
+          </li> 
+          <li> 
+            <a href='#about'> 
               About
-            </a>
-          </li>
-          <li>
-            <a href='#facts'>
+            </a> 
+          </li> 
+          <li> 
+            <a href='#facts'> 
               Facts
-            </a>
-          </li>
-          <li>
-            <a href='#community'>
+            </a> 
+          </li> 
+          <li> 
+            <a href='#community'> 
               Community
-            </a>
-          </li>
-          <li>
-            <a href='#participate'>
+            </a> 
+          </li> 
+          <li> 
+            <a href='#participate'> 
               Participate
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div id='content'>
-      <div class='center'>
-        <div id='home'>
-          <h2 class='title banner'>
-            <noscript>
+            </a> 
+          </li> 
+        </ul> 
+      </div> 
+    </div> 
+    <div id='content'> 
+      <div class='center'> 
+        <div id='home'> 
+          <h2 class='title banner'> 
+            <noscript> 
               Hello!
-              <br />
+              <br /> 
               You are using the Internet without Javascript.
-              <br />
+              <br /> 
               Turn it on!
-              <br />
+              <br /> 
               It makes browsing much better.
-            </noscript>
-          </h2>
-          <div id='home-nav'>
-            <span class='download_browser' id='firefox'>
-              <a href='http://www.mozilla.com/en-US/firefox/firefox.html' rel='Firefox'>
-                <img alt='Download Firefox' src='/images/icons/firefox-medium.png' />
-              </a>
-            </span>
-            <span class='download_browser' id='chrome'>
-              <a href='http://www.google.com/chrome' rel='Chrome'>
-                <img alt='Download Chrome' src='/images/icons/chrome-medium.png' />
-              </a>
-            </span>
-            <span class='download_browser' id='safari'>
-              <a href='http://www.apple.com/safari/download' rel='Safari'>
-                <img alt='Download Safari' src='/images/icons/safari-medium.png' />
-              </a>
-            </span>
-            <span class='download_browser' id='opera'>
-              <a href='http://www.opera.com/download/' rel='Opera'>
-                <img alt='Download Opera' src='/images/icons/opera-medium.png' />
-              </a>
-            </span>
-          </div>
-        </div>
-        <div class='separator'></div>
-        <div class='entry' id='about'>
-          <h2 class='title about-heading'>
+            </noscript> 
+          </h2> 
+          <div id='home-nav'> 
+            <span class='download_browser' id='firefox'> 
+              <a href='http://www.mozilla.com/en-US/firefox/firefox.html' rel='Firefox'> 
+                <img alt='Download Firefox' src='/images/icons/firefox-medium.png' /> 
+              </a> 
+            </span> 
+            <span class='download_browser' id='chrome'> 
+              <a href='http://www.google.com/chrome' rel='Chrome'> 
+                <img alt='Download Chrome' src='/images/icons/chrome-medium.png' /> 
+              </a> 
+            </span> 
+            <span class='download_browser' id='safari'> 
+              <a href='http://www.apple.com/safari/download' rel='Safari'> 
+                <img alt='Download Safari' src='/images/icons/safari-medium.png' /> 
+              </a> 
+            </span> 
+            <span class='download_browser' id='opera'> 
+              <a href='http://www.opera.com/download/' rel='Opera'> 
+                <img alt='Download Opera' src='/images/icons/opera-medium.png' /> 
+              </a> 
+            </span> 
+          </div> 
+        </div> 
+        <div class='separator'></div> 
+        <div class='entry' id='about'> 
+          <h2 class='title about-heading'> 
             A Faster, Simpler, Safer Web
-          </h2>
-          <div class='about-block'>
-            <div class='column-one'>
-              <img alt='Internet Explorer...' src='/images/icons/ie-trash.png' />
-            </div>
-            <div class='column-two'>
-              <h3 class='subtitle'>
+          </h2> 
+          <div class='about-block'> 
+            <div class='column-one'> 
+              <img alt='Internet Explorer...' src='/images/icons/ie-trash.png' /> 
+            </div> 
+            <div class='column-two'> 
+              <h3 class='subtitle'> 
                 Internet Explorer...
-              </h3>
-              <ul>
-              	<li class="bad"><a href="http://crashie.ajaxmasters.com/">Viruses</a></li>
-              	<li class="bad"><a href="http://www.crashie.com/">Crashes</a></li>
-              	<li class="good"><a href="http://almost.done21.com/2009/04/announcing-ie6-update-help-kill-internet-explorer-6/">Well Marketed</a></li>
-              	<li class="bad">Non Standard Compliant</li>
-              	<li class="bad">Closed Source</li>
-              </ul>
-              <p><a href="http://www.stoplivinginthepast.com/why-upgrade/">Why Upgrade?</a></p>
-            </div>
-          </div>
-          <div class='about-block'>
-            <div class='column-one'>
-              <img alt='Better Browsers' src='/images/icons/better-browsers.png' />
-            </div>
-            <div class='column-two'>
-              <h3 class='subtitle'>
+              </h3> 
+              <ul> 
+              	<li class="bad"><a href="http://crashie.ajaxmasters.com/">Viruses</a></li> 
+              	<li class="bad"><a href="http://www.crashie.com/">Crashes</a></li> 
+              	<li class="good"><a href="http://almost.done21.com/2009/04/announcing-ie6-update-help-kill-internet-explorer-6/">Well Marketed</a></li> 
+              	<li class="bad">Non Standard Compliant</li> 
+              	<li class="bad">Closed Source</li> 
+              </ul> 
+              <p><a href="http://www.stoplivinginthepast.com/why-upgrade/">Why Upgrade?</a></p> 
+            </div> 
+          </div> 
+          <div class='about-block'> 
+            <div class='column-one'> 
+              <img alt='Better Browsers' src='/images/icons/better-browsers.png' /> 
+            </div> 
+            <div class='column-two'> 
+              <h3 class='subtitle'> 
                 Better Browsers
-              </h3>
-              <ul>
-              	<li class="good">Safe</li>
-              	<li class="good">Fast</li>
-              	<li class="good">Rapidly Developed</li>
-              	<li class="good">Standards Compliant</li>
-              	<li class="good">Open Source</li>
-              </ul>
-            </div>
-          </div>
-          <div class='about-block'>
-            <div class='column-one'>
-              <img alt='Your Internet Footprint' src='/images/icons/internet-footprint.png' />
-            </div>
-            <div class='column-two'>
-              <h3 class='subtitle'>
+              </h3> 
+              <ul> 
+              	<li class="good">Safe</li> 
+              	<li class="good">Fast</li> 
+              	<li class="good">Rapidly Developed</li> 
+              	<li class="good">Standards Compliant</li> 
+              	<li class="good">Open Source</li> 
+              </ul> 
+            </div> 
+          </div> 
+          <div class='about-block'> 
+            <div class='column-one'> 
+              <img alt='Your Internet Footprint' src='/images/icons/internet-footprint.png' /> 
+            </div> 
+            <div class='column-two'> 
+              <h3 class='subtitle'> 
                 Your Internet Footprint
-              </h3>
-              <p>Leave behind a better world.</p>
-              <p>Download <a href="http://www.google.com/chrome">Chrome</a>, <a href="http://www.mozilla.com/en-US/firefox/firefox.html">Firefox</a>, <a href="http://www.apple.com/safari/download">Safari</a>, or <a href="http://www.opera.com/download/">Opera</a> if you are not using one already.</p>
-              <p>Spread the word around.</p>
-            </div>
-          </div>
-        </div>
-        <div class='separator'></div>
-        <div class='entry' id='facts'>
-          <h2 class='title facts-heading'>
+              </h3> 
+              <p>Leave behind a better world.</p> 
+              <p>Download <a href="http://www.google.com/chrome">Chrome</a>, <a href="http://www.mozilla.com/en-US/firefox/firefox.html">Firefox</a>, <a href="http://www.apple.com/safari/download">Safari</a>, or <a href="http://www.opera.com/download/">Opera</a> if you are not using one already.</p> 
+              <p>Spread the word around.</p> 
+            </div> 
+          </div> 
+        </div> 
+        <div class='separator'></div> 
+        <div class='entry' id='facts'> 
+          <h2 class='title facts-heading'> 
             Get the Facts
-          </h2>
-          <div class='facts-block'>
-            <div class='column-two'>
-              <img alt='Security and Viruses' src='/images/icons/alert.png' />
-            </div>
-            <div class='column-one'>
-              <h3 class='subtitle'>
+          </h2> 
+          <div class='facts-block'> 
+            <div class='column-two'> 
+              <img alt='Security and Viruses' src='/images/icons/alert.png' /> 
+            </div> 
+            <div class='column-one'> 
+              <h3 class='subtitle'> 
                 Security and Viruses
-              </h3>
-              <blockquote>
-              <p>Internet Explorer is the main reason Windows is associated with viruses.</p>
-              </blockquote>
-              <p>If you are using Internet Explorer, you are exposing yourself to viruses, period.  Get one of the four other popular browsers and you will be fine.</p>
-              <ul>
-              	<li><a href="http://www.virusexperts.org/security-news/german-government-dont-use-internet-explorer/">Internet Explorer Viruses</a></li>
-              	<li><a href="http://mashable.com/2010/01/18/france-against-internet-explorer/">World Governments Advise Against Internet Explorer</a></li>
-              	<li><a href="http://mashable.com/2010/01/19/microsoft-downplays-ie-hole/">I have worked on 3 infected machines this week and all of them were running ie7 and had windows and virus software up to date. The most secure browser right now is the Chrome dev version. It&#8217;s bullet proof.</a></li>
-              	<li><a href="http://www.microsoft.com/technet/security/advisory/961051.mspx">Internet Explorer Vulnerability allows others to Access your Operating System</a></li>
-              	<li><a href="http://voices.washingtonpost.com/securityfix/2008/12/microsoft_big_security_hole_in.html">Serious Security Flaw: Easy for Hackers to Steal your Data if you use IE</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class='facts-block'>
-            <div class='column-two'>
-              <img alt='Standards Compliance' src='/images/icons/arrow.png' />
-            </div>
-            <div class='column-one'>
-              <h3 class='subtitle'>
+              </h3> 
+              <blockquote> 
+              <p>Internet Explorer is the main reason Windows is associated with viruses.</p> 
+              </blockquote> 
+              <p>If you are using Internet Explorer, you are exposing yourself to viruses, period.  Get one of the four other popular browsers and you will be fine.</p> 
+              <ul> 
+              	<li><a href="http://www.virusexperts.org/security-news/german-government-dont-use-internet-explorer/">Internet Explorer Viruses</a></li> 
+              	<li><a href="http://mashable.com/2010/01/18/france-against-internet-explorer/">World Governments Advise Against Internet Explorer</a></li> 
+              	<li><a href="http://mashable.com/2010/01/19/microsoft-downplays-ie-hole/">I have worked on 3 infected machines this week and all of them were running ie7 and had windows and virus software up to date. The most secure browser right now is the Chrome dev version. It&#8217;s bullet proof.</a></li> 
+              	<li><a href="http://www.microsoft.com/technet/security/advisory/961051.mspx">Internet Explorer Vulnerability allows others to Access your Operating System</a></li> 
+              	<li><a href="http://voices.washingtonpost.com/securityfix/2008/12/microsoft_big_security_hole_in.html">Serious Security Flaw: Easy for Hackers to Steal your Data if you use IE</a></li> 
+              </ul> 
+            </div> 
+          </div> 
+          <div class='facts-block'> 
+            <div class='column-two'> 
+              <img alt='Standards Compliance' src='/images/icons/arrow.png' /> 
+            </div> 
+            <div class='column-one'> 
+              <h3 class='subtitle'> 
                 Standards Compliance
-              </h3>
-              <blockquote>
-              <p>Internet Explorer is not standards compliant.</p>
-              </blockquote>
-              <p>While it&#8217;s impossible to be 100% standards compliant, Internet Explorer is the furthest from the standards.</p>
-              <ul>
-              	<li><a href="http://www.webstandards.org/">Web Standards Project</a></li>
-              	<li><a href="http://www.positioniseverything.net/ie-primer.html">Internet Explorer vs &#8216;The Standards&#8217;</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class='facts-block'>
-            <div class='column-two'>
-              <img alt='Cost Effectiveness' src='/images/icons/piggy-bank.png' />
-            </div>
-            <div class='column-one'>
-              <h3 class='subtitle'>
+              </h3> 
+              <blockquote> 
+              <p>Internet Explorer is not standards compliant.</p> 
+              </blockquote> 
+              <p>While it&#8217;s impossible to be 100% standards compliant, Internet Explorer is the furthest from the standards.</p> 
+              <ul> 
+              	<li><a href="http://www.webstandards.org/">Web Standards Project</a></li> 
+              	<li><a href="http://www.positioniseverything.net/ie-primer.html">Internet Explorer vs &#8216;The Standards&#8217;</a></li> 
+              </ul> 
+            </div> 
+          </div> 
+          <div class='facts-block'> 
+            <div class='column-two'> 
+              <img alt='Cost Effectiveness' src='/images/icons/piggy-bank.png' /> 
+            </div> 
+            <div class='column-one'> 
+              <h3 class='subtitle'> 
                 Cost Effectiveness
-              </h3>
-              <p>There are two camps when it comes to the <span class="caps">ROI</span> of upgrading browsers:</p>
-              <ul>
-              	<li>It costs too much to change</li>
-              	<li>It costs too much not to change</li>
-              </ul>
-              <p>The first camp are big businesses, and rightly so.  In the early 2000&#8217;s when Internet Explorer came to market, it was an innovation.  Many businesses quickly adopted it and built all kinds of software specifically tailored to it.  And they had to install it on millions of computers to run all of that Internet Explorer software.</p>
-              <p>So today, big businesses have sometimes 10&#8217;s of 1000&#8217;s of computers, all with software tied specifically to old versions Internet Explorer.  The cost to upgrade includes not only IT time, but making sure the many browser-based software programs they are using don&#8217;t break.  Basically, they would need to rebuild all of their software using modern technologies, and that is a big task.</p>
-              <blockquote>
-              <p>The argument goes, there&#8217;s too much to change and it would cost too much&#8230;</p>
-              </blockquote>
-              <p>The second camp are the freelancers, small businesses, emerging enterprises.  They did not make the enormous investment in Internet Explorer based Enterprise Software solutions in the late 90&#8217;s and early 2000&#8217;s so they are not tied down to them.  They think the cost of <span class="caps">NOT</span> upgrading is much more than the cost of sticking with old versions of software.  This is because Internet Explorer is:</p>
-              <ul>
-              	<li class="bad">Slow</li>
-              	<li class="bad">Very Prone to Viruses</li>
-              	<li class="bad">Non Standards Compliant</li>
-              </ul>
-              <p><a href="http://stackoverflow.com/questions/2704087/why-cant-businesses-upgrade-their-browsers-from-ie6-ie7">Why Businesses Can&#8217;t Upgrade from Internet Explorer 6/7</a></p>
-              <p>More to come&#8230;</p>
-            </div>
-          </div>
-          <div class='facts-block'>
-            <div class='column-two'>
-              <img alt='Market Share' src='/images/icons/chart.png' />
-            </div>
-            <div class='column-one'>
-              <h3 class='subtitle'>
+              </h3> 
+              <p>There are two camps when it comes to the <span class="caps">ROI</span> of upgrading browsers:</p> 
+              <ul> 
+              	<li>It costs too much to change</li> 
+              	<li>It costs too much not to change</li> 
+              </ul> 
+              <p>The first camp are big businesses, and rightly so.  In the early 2000&#8217;s when Internet Explorer came to market, it was an innovation.  Many businesses quickly adopted it and built all kinds of software specifically tailored to it.  And they had to install it on millions of computers to run all of that Internet Explorer software.</p> 
+              <p>So today, big businesses have sometimes 10&#8217;s of 1000&#8217;s of computers, all with software tied specifically to old versions Internet Explorer.  The cost to upgrade includes not only IT time, but making sure the many browser-based software programs they are using don&#8217;t break.  Basically, they would need to rebuild all of their software using modern technologies, and that is a big task.</p> 
+              <blockquote> 
+              <p>The argument goes, there&#8217;s too much to change and it would cost too much&#8230;</p> 
+              </blockquote> 
+              <p>The second camp are the freelancers, small businesses, emerging enterprises.  They did not make the enormous investment in Internet Explorer based Enterprise Software solutions in the late 90&#8217;s and early 2000&#8217;s so they are not tied down to them.  They think the cost of <span class="caps">NOT</span> upgrading is much more than the cost of sticking with old versions of software.  This is because Internet Explorer is:</p> 
+              <ul> 
+              	<li class="bad">Slow</li> 
+              	<li class="bad">Very Prone to Viruses</li> 
+              	<li class="bad">Non Standards Compliant</li> 
+              </ul> 
+              <p><a href="http://stackoverflow.com/questions/2704087/why-cant-businesses-upgrade-their-browsers-from-ie6-ie7">Why Businesses Can&#8217;t Upgrade from Internet Explorer 6/7</a></p> 
+              <p>More to come&#8230;</p> 
+            </div> 
+          </div> 
+          <div class='facts-block'> 
+            <div class='column-two'> 
+              <img alt='Market Share' src='/images/icons/chart.png' /> 
+            </div> 
+            <div class='column-one'> 
+              <h3 class='subtitle'> 
                 Market Share
-              </h3>
-              <p>Internet Explorer has a huge market share.  This is because of the investment made in it early on&#8230;</p>
-              <ul>
-              	<li><a href="http://www.w3counter.com/globalstats.php">Web Browser Market Share</a></li>
-              	<li><a href="http://www.w3counter.com/trends">Web Browser Market Trends</a></li>
-              	<li><a href="http://www.netmarketshare.com/browser-market-share.aspx?qprid=2">Net Browser Market Share</a></li>
-              	<li><a href="http://www.w3schools.com/browsers/browsers_stats.asp">Browser Statistics</a></li>
-              	<li><a href="http://www.codinghorror.com/blog/2006/06/wwwwwdd.html">What Would your World Wide Web Developer Do?</a></li>
-              	<li><a href="http://news.cnet.com/8301-17939_109-10231713-2.html">The Enterprise Still Loves IE6</a></li>
-              	<li><a href="http://www.technewsworld.com/rsstory/69152.html?wlc=1272297146">Why is Internet Explorer 6 Still Around?</a></li>
-              </ul>
-              <p><a href="http://en.wikipedia.org/wiki/United_States_v._Microsoft">Microsoft Internet Explorer was sued by the United States of America</a> in the late 1990&#8217;s for tying Internet Explorer directly to the Windows operating system.  This allowed them to dominate the market by suppressing all competition.</p>
-            </div>
-          </div>
-          <div class='facts-block'>
-            <div class='column-two'>
-              <img alt='Speed and Performance' src='/images/icons/performance.png' />
-            </div>
-            <div class='column-one'>
-              <h3 class='subtitle'>
+              </h3> 
+              <p>Internet Explorer has a huge market share.  This is because of the investment made in it early on&#8230;</p> 
+              <ul> 
+              	<li><a href="http://www.w3counter.com/globalstats.php">Web Browser Market Share</a></li> 
+              	<li><a href="http://www.w3counter.com/trends">Web Browser Market Trends</a></li> 
+              	<li><a href="http://www.netmarketshare.com/browser-market-share.aspx?qprid=2">Net Browser Market Share</a></li> 
+              	<li><a href="http://www.w3schools.com/browsers/browsers_stats.asp">Browser Statistics</a></li> 
+              	<li><a href="http://www.codinghorror.com/blog/2006/06/wwwwwdd.html">What Would your World Wide Web Developer Do?</a></li> 
+              	<li><a href="http://news.cnet.com/8301-17939_109-10231713-2.html">The Enterprise Still Loves IE6</a></li> 
+              	<li><a href="http://www.technewsworld.com/rsstory/69152.html?wlc=1272297146">Why is Internet Explorer 6 Still Around?</a></li> 
+              </ul> 
+              <p><a href="http://en.wikipedia.org/wiki/United_States_v._Microsoft">Microsoft Internet Explorer was sued by the United States of America</a> in the late 1990&#8217;s for tying Internet Explorer directly to the Windows operating system.  This allowed them to dominate the market by suppressing all competition.</p> 
+            </div> 
+          </div> 
+          <div class='facts-block'> 
+            <div class='column-two'> 
+              <img alt='Speed and Performance' src='/images/icons/performance.png' /> 
+            </div> 
+            <div class='column-one'> 
+              <h3 class='subtitle'> 
                 Speed and Performance
-              </h3>
-              <ul>
-              	<li><a href="http://cybernetnews.com/browser-comparison-internet-explorer-firefox-chrome-safari-opera/">Browser Memory Usage and Speed Tests</a></li>
-              </ul>
-              <div id="performance_graph"></div>
-            </div>
-          </div>
-          <div class='facts-block'>
-            <div class='column-two'>
-              <img alt='Developer Productivity' src='/images/icons/productivity.png' />
-            </div>
-            <div class='column-one'>
-              <h3 class='subtitle'>
+              </h3> 
+              <ul> 
+              	<li><a href="http://cybernetnews.com/browser-comparison-internet-explorer-firefox-chrome-safari-opera/">Browser Memory Usage and Speed Tests</a></li> 
+              </ul> 
+              <div id="performance_graph"></div> 
+            </div> 
+          </div> 
+          <div class='facts-block'> 
+            <div class='column-two'> 
+              <img alt='Developer Productivity' src='/images/icons/productivity.png' /> 
+            </div> 
+            <div class='column-one'> 
+              <h3 class='subtitle'> 
                 Developer Productivity
-              </h3>
-              <p>By cutting Internet Explorer out of the equation, we get the following:</p>
-              <ul>
-              	<li class="good">One size fits all development patterns</li>
-              	<li class="good">Better User Experience</li>
-              	<li class="good">Faster Turnaround</li>
-              	<li class="good">Standards Compliant</li>
-              	<li class="good">Happier Customers</li>
-              </ul>
-              <p>This is because Internet Explorer requires us to rebuild our software according to Non-Standard Compliant practices.</p>
-            </div>
-          </div>
-        </div>
-        <div class='separator'></div>
-        <div class='entry' id='community'>
-          <h2 class='title work-heading'>
+              </h3> 
+              <p>By cutting Internet Explorer out of the equation, we get the following:</p> 
+              <ul> 
+              	<li class="good">One size fits all development patterns</li> 
+              	<li class="good">Better User Experience</li> 
+              	<li class="good">Faster Turnaround</li> 
+              	<li class="good">Standards Compliant</li> 
+              	<li class="good">Happier Customers</li> 
+              </ul> 
+              <p>This is because Internet Explorer requires us to rebuild our software according to Non-Standard Compliant practices.</p> 
+            </div> 
+          </div> 
+        </div> 
+        <div class='separator'></div> 
+        <div class='entry' id='community'> 
+          <h2 class='title work-heading'> 
             What the World Thinks
-          </h2>
-          <div class='about-block'>
-            <div class='column-one'>
-              <img alt='Let the Web Move On' src='/images/icons/globe.png' />
-            </div>
-            <div class='column-two'>
-              <h3 class='subtitle'>
+          </h2> 
+          <div class='about-block'> 
+            <div class='column-one'> 
+              <img alt='Let the Web Move On' src='/images/icons/globe.png' /> 
+            </div> 
+            <div class='column-two'> 
+              <h3 class='subtitle'> 
                 Let the Web Move On
-              </h3>
-              <p>Look at the enormous effort people are putting forth to make sure the Internet evolves at a steady pace.  So much writing, so much money and time, all because they love you.</p>
-              <h3>Campaigns Against IE6</h3>
-              <ul>
-              	<li><a href="http://www.end6.org/">End 6!</a></li>
-              	<li><a href="http://wordpress.org/extend/plugins/upgrade-else-die/">Upgrade else Die Wordpress Plugin</a></li>
-              	<li><a href="http://mashable.com/2009/07/16/ie6-must-die/">IE6 Must Die for the Web to Move On</a></li>
-              	<li><a href="http://mashable.com/2009/08/07/ie6-must-die-2/">IE6 <span class="caps">MUST</span> <span class="caps">DIE</span>: 70+ Sites Unite to Kill IE6</a></li>
-              	<li><a href="http://iedeathmarch.org/">IE6 Death March</a></li>
-              	<li><a href="http://ie6update.com/">IE6 Update: Help Kill Internet Explorer</a></li>
-              	<li><a href="http://www.bringdownie6.com/">Bring Down IE6</a></li>
-              	<li><a href="http://idroppedie6.com/">I Dropped IE6</a></li>
-              	<li><a href="http://www.iesucks.info/">IE Sucks &#8211; Internet Explorer the Dumb Browser</a></li>
-              	<li><a href="http://ie6funeral.com/">IE6 Funeral</a></li>
-              	<li><a href="http://www.w3junkies.com/toocool/">Too Cool for Internet Explorer</a></li>
-              	<li><a href="http://weblogs.asp.net/lduveau/archive/2008/04/05/save-a-developer-upgrade-your-browser.aspx">Save a Developer: Upgrade Your Browser</a></li>
-              	<li><a href="http://twibbon.com/join/IE6-Must-Die">IE6 Must Die Support</a></li>
-              	<li><a href="http://browsehappy.com/why/">Browse Happy</a></li>
-              	<li><a href="http://dearie6.com/">Dear IE6</a></li>
-              	<li><a href="http://www.stoplivinginthepast.com/">Stop Living in the Past</a></li>
-              </ul>
-              <h3>Thoughts About IE6</h3>
-              <ul>
-              	<li><a href="http://crashie.ajaxmasters.com/">Kill Bill&#8217;s Browser: Test IE6&#8217;s Vulnerabilities</a></li>
-              	<li><a href="http://www.crashie.com/">Crash IE</a></li>
-              	<li><a href="http://www.catswhocode.com/blog/6-html-and-javascript-codes-to-crash-ie6">6 Javascripts to Crash IE</a></li>
-              	<li><a href="http://iconnectdots.com/2007/04/when_will_inter.html">When will Internet Explorer 6 die?</a></li>
-              	<li><a href="http://googleenterprise.blogspot.com/2010/01/modern-browsers-for-modern-applications.html">Google Stops Support IE6!</a></li>
-              	<li><a href="http://www.slideshare.net/done21/help-kill-internet-explorer-6">Help Kill Internet Explorer Presentation</a></li>
-              	<li><a href="http://www.catswhocode.com/blog/15-amazing-anti-ie-resources">Why You Should Dump Internet Explorer</a></li>
-              	<li>http://www.w3junkies.com/toocool/</li>
-              	<li><a href="http://about.digg.com/blog/much-ado-about-ie6">Should Digg Cut Internet Explorer Support?</a></li>
-              	<li><a href="http://davidwalsh.name/6-reasons-why-ie6-must-die">6 Reasons Why IE6 Must Die</a> (<a href="http://davidwalsh.name/6-reasons-why-ie6-must-die#comments">read the comments!</a>)</li>
-              	<li><a href="http://browsers.about.com/b/2009/02/09/firefox-creators-join-the-anti-ie-crusade.htm">Firefox Creators Join the Anti IE Crusade</a></li>
-              	<li><a href="http://wordsmoker.com/2009/02/27/internet-explorer-must-die/">Internet Explorer Must Die</a></li>
-              	<li><a href="http://mashable.com/2009/07/17/ie6-must-die-twibon/">Twitter Users Agree: IE6 Must Die</a></li>
-              	<li><a href="http://www.wired.com/epicenter/2009/02/norwegian-websi/">Several Norwegian Websites Declare War on IE6</a></li>
-              	<li><a href="http://www.cnn.com/2009/TECH/08/06/internet.explorer.six/"><span class="caps">CNN</span>: Web Citizens Trying to Kill Internet Explorer 6</a></li>
-              	<li><a href="http://37signals.blogs.com/products/2008/07/basecamp-phasin.html">37Signals (Basecamp Company) Drops IE6 Support</a></li>
-              	<li><a href="http://37signals.com/svn/posts/1072-apples-mobileme-drops-support-for-ie-6">Apple&#8217;s MobileMe Drops IE6 Support</a></li>
-              	<li><a href="http://www.silverspider.com/2010/developers-stop-complaining-about-ie-6/">Stop Complaining About IE6</a></li>
-              </ul>
-              <h3><a href="http://www.justinroberts.com.au/put-ie6-out-of-its-misery-a-list-of-anti-ie6-websites/">IE6 Is Older Than&#8230;</a></h3>
-              <ul>
-              	<li>Windows XP</li>
-              	<li>Facebook</li>
-              	<li>Myspace</li>
-              	<li>Google Adsense</li>
-              	<li>iPod</li>
-              	<li>Original XBox</li>
-              	<li>Canon Digital <span class="caps">SLR</span> Cameras</li>
-              	<li>The War in Iraq</li>
-              	<li>East Timor</li>
-              </ul>
-            </div>
-          </div>
-          <div class='about-block'>
-            <div class='column-one'>
-              <img alt='Save the Developers' src='/images/icons/news.png' />
-            </div>
-            <div class='column-two'>
-              <h3 class='subtitle'>
+              </h3> 
+              <p>Look at the enormous effort people are putting forth to make sure the Internet evolves at a steady pace.  So much writing, so much money and time, all because they love you.</p> 
+              <h3>Campaigns Against IE6</h3> 
+              <ul> 
+              	<li><a href="http://www.end6.org/">End 6!</a></li> 
+              	<li><a href="http://wordpress.org/extend/plugins/upgrade-else-die/">Upgrade else Die Wordpress Plugin</a></li> 
+              	<li><a href="http://mashable.com/2009/07/16/ie6-must-die/">IE6 Must Die for the Web to Move On</a></li> 
+              	<li><a href="http://mashable.com/2009/08/07/ie6-must-die-2/">IE6 <span class="caps">MUST</span> <span class="caps">DIE</span>: 70+ Sites Unite to Kill IE6</a></li> 
+              	<li><a href="http://iedeathmarch.org/">IE6 Death March</a></li> 
+              	<li><a href="http://ie6update.com/">IE6 Update: Help Kill Internet Explorer</a></li> 
+              	<li><a href="http://www.bringdownie6.com/">Bring Down IE6</a></li> 
+              	<li><a href="http://idroppedie6.com/">I Dropped IE6</a></li> 
+              	<li><a href="http://www.iesucks.info/">IE Sucks &#8211; Internet Explorer the Dumb Browser</a></li> 
+              	<li><a href="http://ie6funeral.com/">IE6 Funeral</a></li> 
+              	<li><a href="http://www.w3junkies.com/toocool/">Too Cool for Internet Explorer</a></li> 
+              	<li><a href="http://weblogs.asp.net/lduveau/archive/2008/04/05/save-a-developer-upgrade-your-browser.aspx">Save a Developer: Upgrade Your Browser</a></li> 
+              	<li><a href="http://twibbon.com/join/IE6-Must-Die">IE6 Must Die Support</a></li> 
+              	<li><a href="http://browsehappy.com/why/">Browse Happy</a></li> 
+              	<li><a href="http://dearie6.com/">Dear IE6</a></li> 
+              	<li><a href="http://www.stoplivinginthepast.com/">Stop Living in the Past</a></li> 
+              </ul> 
+              <h3>Thoughts About IE6</h3> 
+              <ul> 
+              	<li><a href="http://crashie.ajaxmasters.com/">Kill Bill&#8217;s Browser: Test IE6&#8217;s Vulnerabilities</a></li> 
+              	<li><a href="http://www.crashie.com/">Crash IE</a></li> 
+              	<li><a href="http://www.catswhocode.com/blog/6-html-and-javascript-codes-to-crash-ie6">6 Javascripts to Crash IE</a></li> 
+              	<li><a href="http://iconnectdots.com/2007/04/when_will_inter.html">When will Internet Explorer 6 die?</a></li> 
+              	<li><a href="http://googleenterprise.blogspot.com/2010/01/modern-browsers-for-modern-applications.html">Google Stops Support IE6!</a></li> 
+              	<li><a href="http://www.slideshare.net/done21/help-kill-internet-explorer-6">Help Kill Internet Explorer Presentation</a></li> 
+              	<li><a href="http://www.catswhocode.com/blog/15-amazing-anti-ie-resources">Why You Should Dump Internet Explorer</a></li> 
+              	<li>http://www.w3junkies.com/toocool/</li> 
+              	<li><a href="http://about.digg.com/blog/much-ado-about-ie6">Should Digg Cut Internet Explorer Support?</a></li> 
+              	<li><a href="http://davidwalsh.name/6-reasons-why-ie6-must-die">6 Reasons Why IE6 Must Die</a> (<a href="http://davidwalsh.name/6-reasons-why-ie6-must-die#comments">read the comments!</a>)</li> 
+              	<li><a href="http://browsers.about.com/b/2009/02/09/firefox-creators-join-the-anti-ie-crusade.htm">Firefox Creators Join the Anti IE Crusade</a></li> 
+              	<li><a href="http://wordsmoker.com/2009/02/27/internet-explorer-must-die/">Internet Explorer Must Die</a></li> 
+              	<li><a href="http://mashable.com/2009/07/17/ie6-must-die-twibon/">Twitter Users Agree: IE6 Must Die</a></li> 
+              	<li><a href="http://www.wired.com/epicenter/2009/02/norwegian-websi/">Several Norwegian Websites Declare War on IE6</a></li> 
+              	<li><a href="http://www.cnn.com/2009/TECH/08/06/internet.explorer.six/"><span class="caps">CNN</span>: Web Citizens Trying to Kill Internet Explorer 6</a></li> 
+              	<li><a href="http://37signals.blogs.com/products/2008/07/basecamp-phasin.html">37Signals (Basecamp Company) Drops IE6 Support</a></li> 
+              	<li><a href="http://37signals.com/svn/posts/1072-apples-mobileme-drops-support-for-ie-6">Apple&#8217;s MobileMe Drops IE6 Support</a></li> 
+              	<li><a href="http://www.silverspider.com/2010/developers-stop-complaining-about-ie-6/">Stop Complaining About IE6</a></li> 
+              </ul> 
+              <h3><a href="http://www.justinroberts.com.au/put-ie6-out-of-its-misery-a-list-of-anti-ie6-websites/">IE6 Is Older Than&#8230;</a></h3> 
+              <ul> 
+              	<li>Windows XP</li> 
+              	<li>Facebook</li> 
+              	<li>Myspace</li> 
+              	<li>Google Adsense</li> 
+              	<li>iPod</li> 
+              	<li>Original XBox</li> 
+              	<li>Canon Digital <span class="caps">SLR</span> Cameras</li> 
+              	<li>The War in Iraq</li> 
+              	<li>East Timor</li> 
+              </ul> 
+            </div> 
+          </div> 
+          <div class='about-block'> 
+            <div class='column-one'> 
+              <img alt='Save the Developers' src='/images/icons/news.png' /> 
+            </div> 
+            <div class='column-two'> 
+              <h3 class='subtitle'> 
                 Save the Developers
-              </h3>
-              <p>It takes developers a lot of time to make things look, feel, and work great.  That doesn&#8217;t come easy.  Cutting out old technologies streamlines their workflow and cuts client costs dramatically.  Here is a list of the hoops developers have had to jump through, and the time they had to give up, to make old technology work with the new.</p>
-              <h3><span class="caps">CSS</span> Box Model Hacks</h3>
-              <p>The <span class="caps">CSS</span> Box Model is the fundamental theory behind how web pages are laid out.  The Open Source Community went one way, and Microsoft Internet Explorer went a different way and got it wrong.  Here is how Internet Explorer&#8217;s Box Model compares with the World Wide Web Consortium&#8217;s Standard:</p>
-              <p><a href="http://en.wikipedia.org/wiki/Internet_Explorer_box_model_bug"><img src="/images/internet/w3c-vs-ie-box-model.png" title="Internet Explorer Box Model Bug" alt="Internet Explorer Box Model Bug" /></a></p>
-              <p>This means for every website we make, we have to recalculate everything according to a different set of rules.  That takes a lot of work.</p>
-              <ul>
-              	<li><a href="http://www.webdesignerwall.com/general/trash-all-ie-hacks/">Trash all IE Hacks</a></li>
-              	<li><a href="http://css-discuss.incutio.com/wiki/Box_Model_Hack">Tantek Celik&#8217;s Box Model Hack</a></li>
-              	<li><a href="http://tantek.com/log/2005/11.html#d26t1820">Tantek Celik&#8217;s Pandora&#8217;s Box Model of <span class="caps">CSS</span> Hacks</a></li>
-              	<li><a href="http://www.howtocreate.co.uk/fixedPosition.html">Making Internet Explorer use &#8216;position:fixed&#8217;</a></li>
-              	<li><a href="http://redmelon.net/tstme/box_model/">Interactive Box Model Demonstration</a></li>
-              </ul>
-              <h3>Lists and Lists of IE Bugs and Workarounds</h3>
-              <ul>
-              	<li><a href="http://www.positioniseverything.net/explorer.html">Internet Explorer Exposed</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class='separator'></div>
-        <div id='participate'>
-          <h2 class='title contact-heading'>
+              </h3> 
+              <p>It takes developers a lot of time to make things look, feel, and work great.  That doesn&#8217;t come easy.  Cutting out old technologies streamlines their workflow and cuts client costs dramatically.  Here is a list of the hoops developers have had to jump through, and the time they had to give up, to make old technology work with the new.</p> 
+              <h3><span class="caps">CSS</span> Box Model Hacks</h3> 
+              <p>The <span class="caps">CSS</span> Box Model is the fundamental theory behind how web pages are laid out.  The Open Source Community went one way, and Microsoft Internet Explorer went a different way and got it wrong.  Here is how Internet Explorer&#8217;s Box Model compares with the World Wide Web Consortium&#8217;s Standard:</p> 
+              <p><a href="http://en.wikipedia.org/wiki/Internet_Explorer_box_model_bug"><img src="/images/internet/w3c-vs-ie-box-model.png" title="Internet Explorer Box Model Bug" alt="Internet Explorer Box Model Bug" /></a></p> 
+              <p>This means for every website we make, we have to recalculate everything according to a different set of rules.  That takes a lot of work.</p> 
+              <ul> 
+              	<li><a href="http://www.webdesignerwall.com/general/trash-all-ie-hacks/">Trash all IE Hacks</a></li> 
+              	<li><a href="http://css-discuss.incutio.com/wiki/Box_Model_Hack">Tantek Celik&#8217;s Box Model Hack</a></li> 
+              	<li><a href="http://tantek.com/log/2005/11.html#d26t1820">Tantek Celik&#8217;s Pandora&#8217;s Box Model of <span class="caps">CSS</span> Hacks</a></li> 
+              	<li><a href="http://www.howtocreate.co.uk/fixedPosition.html">Making Internet Explorer use &#8216;position:fixed&#8217;</a></li> 
+              	<li><a href="http://redmelon.net/tstme/box_model/">Interactive Box Model Demonstration</a></li> 
+              </ul> 
+              <h3>Lists and Lists of IE Bugs and Workarounds</h3> 
+              <ul> 
+              	<li><a href="http://www.positioniseverything.net/explorer.html">Internet Explorer Exposed</a></li> 
+              </ul> 
+            </div> 
+          </div> 
+        </div> 
+        <div class='separator'></div> 
+        <div id='participate'> 
+          <h2 class='title contact-heading'> 
             Change the World
-          </h2>
-          <div class='entry' id='get-in-touch'>
-            <p>We&#8217;d love to hear from you. Instead of emailing me, find a link on this site to a blog post or article that you really relate with, and post a comment.  Not only will you help out that author, you&#8217;ll also make your voice part the engine that will make a difference.</p>
-            <p><a href="http://twibbon.com/join/ie6-must-die">Add a Twitter ribbon to your Twitter avatar</a></p>
-            <p>Copy/paste this Javascript into the <code>head</code> of your Website to make an Internet Explorer ActiveBar appear, pointing users to this site to upgrade:</p>
-            <pre class="code">&lt;!--[if lte IE 7]&gt;&#x000A;  &lt;script src='http://cachedcommons.org/javascripts/jquery/internet-enabled.js' type='text/javascript'&gt;&lt;/script&gt;&#x000A;&lt;![endif]--&gt;</pre>
-            <p>Show your support by joining groups, tweeting, commenting, displaying badges, and filling out surveys!</p>
-            <a href='http://twitter.com/home?status=Make the Internet a Better Place: InternetEnabled.org'>
-              <img alt='Tweet This' src='/images/icons/twitter-bird.png' title='Tweet This' />
-            </a>
-            <a href='http://github.com/viatropos/internet-enabled'>
-              <img alt='Find me on Github' src='/images/icons/github.png' title='Find me on Github' />
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id='footer'>
-      <span>
+          </h2> 
+          <div class='entry' id='get-in-touch'> 
+            <p>We&#8217;d love to hear from you. Instead of emailing me, find a link on this site to a blog post or article that you really relate with, and post a comment.  Not only will you help out that author, you&#8217;ll also make your voice part the engine that will make a difference.</p> 
+            <p><a href="http://twibbon.com/join/ie6-must-die">Add a Twitter ribbon to your Twitter avatar</a></p> 
+            <p>Copy/paste this Javascript into the <code>head</code> of your Website to make an Internet Explorer ActiveBar appear, pointing users to this site to upgrade:</p> 
+            <pre class="code">&lt;!--[if lte IE 7]&gt;&#x000A;  &lt;script src='http://cachedcommons.org/javascripts/jquery/internet-enabled.js' type='text/javascript'&gt;&lt;/script&gt;&#x000A;&lt;![endif]--&gt;</pre> 
+            <p>Show your support by joining groups, tweeting, commenting, displaying badges, and filling out surveys!</p> 
+            <a href='http://twitter.com/home?status=Make the Internet a Better Place: InternetEnabled.org'> 
+              <img alt='Tweet This' src='/images/icons/twitter-bird.png' title='Tweet This' /> 
+            </a> 
+            <a href='http://github.com/viatropos/internet-enabled'> 
+              <img alt='Find me on Github' src='/images/icons/github.png' title='Find me on Github' /> 
+            </a> 
+          </div> 
+        </div> 
+      </div> 
+    </div> 
+    <div id='footer'> 
+      <span> 
         Copyright 2010 iLove4D
-      </span>
-    </div>
-    <!-- vcard -->
-    <ul style='display:none' title='Contact Information'>
-      <li>
-        <div class='vcard' id='hcard-Lance-Pollard'>
-          <a class='url fn n' href='http://github.com/viatropos'>
-            <span class='given-name'>Lance</span>
-            <span class='family-name'>Pollard</span>
-          </a>
-          <div class='org'>4D Design Lab</div>
-          <div class='adr'>
-            <span class='locality'>Berkeley</span>
-            <span class='region'>CA</span>
-            <span class='postal-code'>94704</span>
-            <span class='country-name'>United States</span>
-          </div>
-        </div>
-      </li>
-    </ul>
-    <!-- analytics -->
-    <script type='text/javascript'>
+      </span> 
+    </div> 
+    <!-- vcard --> 
+    <ul style='display:none' title='Contact Information'> 
+      <li> 
+        <div class='vcard' id='hcard-Lance-Pollard'> 
+          <a class='url fn n' href='http://github.com/viatropos'> 
+            <span class='given-name'>Lance</span> 
+            <span class='family-name'>Pollard</span> 
+          </a> 
+          <div class='org'>4D Design Lab</div> 
+          <div class='adr'> 
+            <span class='locality'>Berkeley</span> 
+            <span class='region'>CA</span> 
+            <span class='postal-code'>94704</span> 
+            <span class='country-name'>United States</span> 
+          </div> 
+        </div> 
+      </li> 
+    </ul> 
+    <!-- analytics --> 
+    <script type='text/javascript'> 
       //<![CDATA[
         var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
         document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
       //]]>
-    </script>
-    <script type='text/javascript'>
+    </script> 
+    <script type='text/javascript'> 
       //<![CDATA[
         try {
           var pageTracker = _gat._getTracker("UA-15601175-8");
           pageTracker._trackPageview();
         } catch(err) {}
       //]]>
-    </script>
-  </body>
+    </script> 
+  </body> 
 </html>
