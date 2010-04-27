@@ -80,7 +80,7 @@ $(document).ready(function() {
 		$el = $(element);
 		$el.replaceWith("<br/><textarea class='text-field full' readonly='readonly'>" + $el.html()  + "</textarea>");
 	});
-	/*
+	
 	$(".download_browser a").each(function(index, element) {
 		var el = $(element);
 		el.removeAttr("target");
@@ -112,5 +112,4 @@ $(document).ready(function() {
 			})
 		})
 	})
-	*/
 })

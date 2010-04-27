@@ -221,11 +221,10 @@ body{
 
 .download_browser {
 	position:absolute;
-	overflow:visible;
+	display:block;
 	top: 10px;
 	text-align:center;
 }
-
 .download_browser#firefox {
 	left:110px;
 }
@@ -237,6 +236,11 @@ body{
 }
 .download_browser#opera {
 	left:710px;
+}
+.actual_browser {
+	position:absolute;
+	text-align:center;
+	width:128px;
 }
 .download_browser a {
 	position:relative;
@@ -669,5 +673,5 @@ textarea.text-field{
 	text-decoration:none;
 }
 span.directions {
-	font-size: 20px;
+	font-size:20px;
 }
