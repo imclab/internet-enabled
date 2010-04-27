@@ -221,8 +221,9 @@ body{
 
 .download_browser {
 	position:absolute;
-	display:block;
-	top: 30px;
+	overflow:visible;
+	top: 10px;
+	text-align:center;
 }
 
 .download_browser#firefox {
@@ -237,7 +238,11 @@ body{
 .download_browser#opera {
 	left:710px;
 }
-
+.download_browser a {
+	position:relative;
+	width:128px;
+	top:10px;
+}
 #home-nav {
 	position:relative;
 	height:225px;
@@ -659,4 +664,10 @@ textarea.text-field{
 #logo a {
 	font-style: normal;
 	text-decoration: none;
+}
+.bland:hover {
+	text-decoration:none;
+}
+span.directions {
+	font-size: 20px;
 }

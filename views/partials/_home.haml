@@ -1,13 +1,14 @@
 #home
   %h2.title.banner
-    #front_page.hidden
-      Hello!
-      %br
-      %span#browser_message You are using {browser}.
-      %br
-      %span#browser_followup Become Standards Compliant.
-      %br
-      %span#browser_request Upgrade your Browser.
+    -#
+      #front_page.hidden
+        Hello!
+        %br
+        %span#browser_message You are using {browser}.
+        %br
+        %span#browser_followup Become Standards Compliant.
+        %br
+        %span#browser_request Upgrade your Browser.
     %noscript
       Hello!
       %br
@@ -18,14 +19,14 @@
       It makes browsing much better.
   #home-nav
     %span.download_browser#firefox
-      %a{ :href => "http://www.mozilla.com/en-US/firefox/firefox.html" }
+      %a{ :href => "http://www.mozilla.com/en-US/firefox/firefox.html", :rel => "Firefox" }
         %img{ :src => "/images/icons/firefox-medium.png", :alt => "Download Firefox" }
     %span.download_browser#chrome
-      %a{ :href => "http://www.google.com/chrome" }
+      %a{ :href => "http://www.google.com/chrome", :rel => "Chrome" }
         %img{ :src => "/images/icons/chrome-medium.png", :alt => "Download Chrome" }
     %span.download_browser#safari
-      %a{ :href => "http://www.apple.com/safari/download" }
+      %a{ :href => "http://www.apple.com/safari/download", :rel => "Safari" }
         %img{ :src => "/images/icons/safari-medium.png", :alt => "Download Safari" }
     %span.download_browser#opera
-      %a{ :href => "http://www.opera.com/download/" }
+      %a{ :href => "http://www.opera.com/download/", :rel => "Opera" }
         %img{ :src => "/images/icons/opera-medium.png", :alt => "Download Opera" }

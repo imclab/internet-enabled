@@ -20,11 +20,24 @@
 				},
 				// only works with xp, vista, and 7
 				"windows": "http://appldnld.apple.com.edgesuite.net/content.info.apple.com/Safari4/061-7779.20100311.Wndsf/SafariSetup.exe"
+			},
+			"opera": {
+				"mac": "http://www.opera.com/download/get.pl?id=32813",
+				"windows": ""
 			}
-		}
-
-		install: function(browser) {
-			window.location = installPaths[browser][$.system.os];
+		},
+		
+		urlFor: function(browser) {
+			os_key = $.system.os.name.toLowerCase();
+			var url = $.installer.installPaths[browser][os_key];
+			if (typeof url != "string") {
+				url = $.installer.installPaths[browser][$.system.os.name.toLowerCase()][$.system.os.key];
+			}
+			return url;
+		},
+		
+		download: function(browser) {
+			window.location = $.installer.urlFor(browser);
 		}
 	}
 })(jQuery);
