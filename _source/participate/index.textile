@@ -15,5 +15,3 @@ pre(code)..
 <![endif]-->
 
 p. Show your support by joining groups, tweeting, commenting, displaying badges, and filling out surveys!
-
-!/images/icons/twitter-bird.png(Tweet this)!:http://twitter.com/home?status=internetenabled.org
