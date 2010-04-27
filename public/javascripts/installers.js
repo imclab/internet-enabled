@@ -16,7 +16,7 @@
 				"mac": {
 					"snow_leopard": "http://appldnld.apple.com.edgesuite.net/content.info.apple.com/Safari4/061-7783.20100311.sfrew/Safari4.0.5SnowLeopard.dmg",
 					"leopard": "http://appldnld.apple.com.edgesuite.net/content.info.apple.com/Safari4/061-7781.20100311.Sfr45/Safari4.0.5Leopard.dmg",
-					"tiger": "http://appldnld.apple.com.edgesuite.net/content.info.apple.com/Safari4/061-7785.20100311.TgrS4/Safari4.0.5Tiger.dmg",
+					"tiger": "http://appldnld.apple.com.edgesuite.net/content.info.apple.com/Safari4/061-7785.20100311.TgrS4/Safari4.0.5Tiger.dmg"
 				},
 				// only works with xp, vista, and 7
 				"windows": "http://appldnld.apple.com.edgesuite.net/content.info.apple.com/Safari4/061-7779.20100311.Wndsf/SafariSetup.exe"
